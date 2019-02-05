@@ -46,7 +46,7 @@ function Column(name) {
          self.addCard(new Card(prompt("Enter the name of the card")));
       }
    });
-}
+
 
 //delete column
 
@@ -59,6 +59,7 @@ this.element.querySelector('.column').addEventListener('click', function (event)
       self.addCard(new Card(prompt("Enter the name of the card")));
    }
 });
+}
 
 //delete the column and adding a card
 
