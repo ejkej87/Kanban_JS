@@ -43,22 +43,32 @@
       }
       .column-card-list {
          border-radius: 5px;
-         background: #fff;
+         background-color: #F8F8F8;
          border: 1px solid #ddd;
          margin-bottom: 5px;
          padding: 8px 10px;
          -webkit-transition: all 0.3 ease;
          color: #000;
          position: relative;
-         .btn-delete {
-            position: absolute;
-            top: 5px;
-            right: 5px
-         }
+         list-style: none;
          li {
-            list-style-type: none;
+            position: relative;
+            .card {
+               display: flex;
+               align-items: center;
+               justify-content: space-between;
+               border-radius: 5px;
+               background: #fff;
+               border: 1px solid #ddd;
+               margin-bottom: 5px;
+               padding: 8px 10px;
+               color: #000;
+            }
+            p {
+               padding: 0;
+               margin: 0;
+            }
          }
       }
    }
-   
-   }
+}
